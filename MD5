@@ -1,0 +1,11 @@
+6fcd0bc5a3bca1b003ac45fb4ac74dc0 *DESCRIPTION
+5e38337fce5053f51695d8b9d703bb01 *NAMESPACE
+95478c3a4ddb6e4eb5a6dc4139f0242d *R/consensusMCcov.R
+5d9cedbe275b0743f313975d12dd3dfc *R/consensusMCindep.R
+6051f6288e88ccc835336f066ab5e217 *R/sampleAvg.R
+4fd0022987313ed98cddc5457792ce29 *R/semiparamDPE.R
+5b278be7caa350bf55b9ca578bd4b8e0 *man/consensusMCcov.Rd
+04fb7d1827397edb70554c4e3f66bb71 *man/consensusMCindep.Rd
+e671a79f26474df2a705415744d965c6 *man/parallelMCMCcombine-package.Rd
+3d34c298b8cc9434728cebb30b8d744f *man/sampleAvg.Rd
+7c393cef4d2feb8076fb9fee7e04c35c *man/semiparamDPE.Rd

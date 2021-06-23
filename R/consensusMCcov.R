@@ -34,8 +34,7 @@ consensusMCcov <- function( subchain, shuff = FALSE )
   if (d==1)
   {
     for (k in 1:M) { sigmahatm[1,,k] <- var(subchain[1,,k]) }    
-  }
-  else
+  }  else
   {
     for (k in 1:M) { sigmahatm[,,k] <- cov(t(subchain[,,k])) }
   }
@@ -48,7 +47,7 @@ consensusMCcov <- function( subchain, shuff = FALSE )
     
     res <- try( sigmahatm.inverse[,,k] <- solve(sigmahatm[,,k]), silent=TRUE)  
     
-    if (class(res) == "try-error")
+    if (class(res[1]) == "try-error")
     {  
       stop(paste("Computation of the inverse of a covariance matrix for",
                  "one of the sample vectors in the data subset #",k,"is failed.",

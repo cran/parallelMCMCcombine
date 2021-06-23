@@ -19,8 +19,7 @@ semiparamDPE<- function( subchain, bandw = rep(1.0,dim(subchain)[1]), anneal = T
   { 
     theta <- array(subchain[,,1], c(d,sampletotT))
     return (theta)
-  }
-  else
+  }  else
   {      
     # library(mvtnorm)
     
@@ -64,7 +63,7 @@ semiparamDPE<- function( subchain, bandw = rep(1.0,dim(subchain)[1]), anneal = T
       
       res <- try( sigmahatm.inverse[,,k] <- solve(sigmahatm[,,k]), silent=TRUE)  
       
-      if (class(res) == "try-error")
+      if (class(res[1]) == "try-error")
       {  
         stop(paste("Computation of the inverse of a covariance matrix for",
                    "one of the sample vectors in the data subset #",k,"is failed.",

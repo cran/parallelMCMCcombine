@@ -15,8 +15,7 @@ consensusMCindep <- function( subchain, shuff = FALSE )
   { 
     theta <- array(subchain[,,1],c(d,sampletotT))
     return (theta)
-  }
-  else
+  }  else
   {          
     if (shuff == TRUE) # randomly permute subposteriors 
     {

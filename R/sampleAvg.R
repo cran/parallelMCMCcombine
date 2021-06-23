@@ -19,8 +19,7 @@ sampleAvg <- function(subchain, shuff=FALSE)
       { 
         theta <- array(subchain[,,1],c(d,sampletotT))        
         return (theta) 
-      }    
-    else
+      }  else
     {
       # shuffle subposterior sample vector for each data subset
       

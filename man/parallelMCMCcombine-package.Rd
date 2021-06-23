@@ -9,7 +9,7 @@
 Package: \tab parallelMCMCcombine\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
-Date: \tab 2014-06-12\cr
+Date: \tab 2021-06-18\cr
 License: \tab GPL-2\cr 
 }
 The package contains the following functions:
@@ -28,7 +28,7 @@ The package contains the following functions:
 \author{
 Alexey Miroshnikov, Erin Conlon
 
-Maintainer: Alexey Miroshnikov \email{amiroshn@gmail.com}
+Maintainer: Erin Conlon \email{econlon@umass.edu}
 }
 \references{Scott, S.L., Blocker, A. W., Bonassi (2013) {Bayes and Big Data: The consensus Monte Carlo Algorithm}. \emph{Bayes 250}.
 
